@@ -201,8 +201,8 @@ setoffset   ldx #$00
 offloop     inx
             inx
             inx
-            sec             ; to avoid "dec" 
-            sbc #$01        ; not accepted by Merlin 8      
+            sec              
+            sbc #$01        ; A = A-1    
             bne offloop
 offsetok    rts  
 
