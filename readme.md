@@ -18,7 +18,7 @@ It is written in assembly language only (Merlin).
 * The program turns on 40 col. mode.
 * Use the space bar to toggle between slow and fast mode. The fast mode disable wait loops.
 * Use escape key to exit
-* Use any other key to pause/unpause 
+* Use any other key to pause/unpause
 
 ## Requirements to compile and run
 
