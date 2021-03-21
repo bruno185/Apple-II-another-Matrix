@@ -1,6 +1,8 @@
 *
 *      M A T R I X-like screen
 *
+* https://github.com/bruno185/Apple-II-another-Matrix
+*
 * Credits :
 * strongly inspired by : NEIL KANDALGAONKAR <neilk@neilk.net>
 * https://github.com/neilk/apple-ii-matrix
