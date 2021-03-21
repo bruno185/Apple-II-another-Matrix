@@ -48,5 +48,5 @@ I use [Floppy emu](www.bigmessowires.com/floppy-emu) wich is really great, congr
 
 ## Todo
 
-* End dispaly whth "THE MATRIX" (or something else ending with IX) in the center. 
+* End dispaly whth "THE MATRIX" (or something else ending with IX!!) in the center. 
 * Port it on HGR
