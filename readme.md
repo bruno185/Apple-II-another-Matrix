@@ -17,6 +17,7 @@ It is written in assembly language only (Merlin).
 * Works with ProDOS 8, it should work on DOS 3.3 (not tester with DOS 3.3 nor on GS)
 * The program turns on 40 col. mode.
 * Use the space bar to toggle between slow and fast mode. The fast mode disable wait loops.
+* Use escape key to exit
 
 ## Requirements to compile and run
 
