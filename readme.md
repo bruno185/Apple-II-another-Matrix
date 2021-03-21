@@ -40,8 +40,10 @@ DoMerlin.bat puts all things together. It needs a path to Merlin32 directory, to
 DoMerlin.bat is to be placed in project directory.
 It compile source (*.s) with Merlin32, copy 6502 binary to a disk image (containg ProDOS), and launch Applewin with this disk in S1,D1.
 
+m.s is the Merlin32 source file. It can be compiled with configuration described above. It produces m binary, wich can be executer on an Apple II or an emulator.
+
 mA2.s is ready to be compiled on a genuine Apple II, with Merlin 8.
-It can be imported in a disk image using Ciderpress, then used on an Apple II (c in my case).
+It can be imported in a disk image using Ciderpress, then used on an Apple II (IIc in my case).
 I use [Floppy emu](www.bigmessowires.com/floppy-emu) wich is really great, congratulation to Big Mess O'Wire !!!!
 
 ## Todo
