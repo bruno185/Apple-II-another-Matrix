@@ -1,0 +1,39 @@
+* * * * * * * * * * * * * * * * * * * * * * * *
+*                                             *
+* Merlin32 to apple II Merlin 8 instructions  *
+*                                             *
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+1/ Remove unnecessary spaces
+In VS Code : replace "  " (2 spaces) by " " (1 spaces) 
+Hit replace all until no double space is left
+
+2/ opcodes and other corrections
+replace "BRA" by "JMP"
+replace "DEC" by 2 lines :
+  SEC 
+  SBC #$01
+chack labels. They souhldn't start with a number. 80col produce an error in Merlin 8
+
+3/ Save with a new name
+I usually add A2 to the name of my source
+myprog.s becomes myprogA2.save
+
+4/ End of lines
+Use your favorite hex editor to replace "OAOD" hex string by "OD"
+Save file.
+
+5/Transfer to Apple II
+I use Ciderpress to copy files ton Floppy emu
+In the image disk, with Ciderpress, change source file attributs to TXT. Aux value remains 0000.
+The bin file (complied) attributes, if copied, must be changed to : BIN ($06),
+and Aux value to the loading address (depending on youy "org" instruction)
+
+6/ On a real Apple II 
+Launch Merlin 8
+Set prefix
+Load source 
+Enter editor (e) and try to assemble (asm)
+You will probably encounter new errors, quite simple to correct, like too long lines
+You will want to add a  LST OFF instruction, for faster assembling.
+
