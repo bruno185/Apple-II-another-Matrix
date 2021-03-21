@@ -29,7 +29,7 @@ Here is my configuration:
 
 * [Merlin32 cross compiler](brutaldeluxe.fr/products/crossdevtools/merlin)
 
-* [Applewin : pple IIe emulator](github.com/AppleWin/AppleWin)
+* [Applewin : Apple IIe emulator](github.com/AppleWin/AppleWin)
 
 * [Applecommander ; disk image utility](applecommander.sourceforge.net)
 
