@@ -1,9 +1,10 @@
 # Apple II (another) MATRIX
 
 A basic program to display a MATRIX like screen.
-It is written in assembly language only (Merlin). 
+It is written in assembly language only (Merlin).
 
-## Credits :
+## Credits
+
 * strongly inspired by : NEIL KANDALGAONKAR <neilk@neilk.net>
 * https://github.com/neilk/apple-ii-matrix
 * Pseudo random numbers  : David Empson - "Random number generator" 
