@@ -49,5 +49,5 @@ See "Merlin32 to apple II Merlin 8.txt" to know how to convert a Merin32 source 
 
 ## Todo
 
-* End dispaly whth "THE MATRIX" (or something else ending with IX!!) in the center. 
+* End dispaly whth "THE MATRIX" (or something else ending with IX!!) in the center.
 * Port it on HGR
