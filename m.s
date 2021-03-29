@@ -163,8 +163,8 @@ cls         jsr cout        ; print empty line
 main        lda #$00            
             sta Kpos            ; init. cursor counter      
 loop        jsr random
-            and #$0F 
-            bne dispchar           ; 1/16 chance of reset
+            and #%0000111 
+            bne dispchar           ; 1/8 chance of reset
             jsr resetcur
             jmp cycle
 dispchar    jsr printcur
@@ -241,7 +241,7 @@ poke        pha
             sta (basl),y
             lda fullspeed
             bne pokee
-            dowait #$00;#$02
+            dowait #$01;#$08
 pokee       rts
 *
 * reset a cursor
